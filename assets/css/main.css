@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px; 
+    border-color: #20B2AA; /* Цвет границы */ 
+    border-style: solid; /* Стиль границы */ 
+    background-color: white;
+    padding: 30px; 
+    margin-top: 10%;
+}
+.register {
+    color: #788a9b;
+    text-align: center;
+}
+
+body {
+    /*height: 100vh;*/
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    padding-top: 3em; 
+    background-color: #a1ecec;
+}
+
+a {
+    color: #3522a1;
+    text-decoration: none;
+}
+
+p {
+    margin: 15px 0;
+}
+
+.error {
+    border-bottom: 2px solid #ff4332;
+}
+
+.msg {
+    border: 2px solid #dd2a0b;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.none {
+    display: none;
+}
+
+.logout {
+    color: #b7625c;
+}
